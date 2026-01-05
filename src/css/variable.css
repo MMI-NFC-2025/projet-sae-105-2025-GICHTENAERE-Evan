@@ -1,0 +1,48 @@
+:root {
+  /* TYPE */
+  --titre-page-family: "Koulen";
+  --titre-page-size: 78px;
+  --titre-page-size-rem: 4.875rem;
+  --titre-page-weight: 400;
+  --titre-page-style: normal;
+  --titre-page-line-height: 95.99%;
+  --sous-titre-family: "Koulen";
+  --sous-titre-size: 40px;
+  --sous-titre-size-rem: 2.5rem;
+  --sous-titre-weight: 400;
+  --sous-titre-style: normal;
+  --texte-family: "Roboto";
+  --texte-size: 20px;
+  --texte-size-rem: 1.25rem;
+  --texte-weight: 400;
+  --texte-style: normal;
+  --exergue-family: "Arial";
+  --exergue-size: 22px;
+  --exergue-size-rem: 1.375rem;
+  --exergue-weight: 700;
+  --exergue-style: italic;
+  --lien-externe-family: "Roboto";
+  --lien-externe-size: 20px;
+  --lien-externe-size-rem: 1.25rem;
+  --lien-externe-style: italic;
+  --nom-site-family: "Marcellus SC";
+  --nom-site-size: 24px;
+  --nom-site-size-rem: 1.5rem;
+  --nom-site-weight: 400;
+  --nom-site-style: normal;
+
+  /* GRADIENTS */
+  --degrade-acueille-stop-1-color: rgba(255 255 255 / 0);
+  --degrade-acueille-stop-1-position: 0%;
+  --degrade-acueille-stop-2-color: rgba(235 179 255 / 0.66);
+  --degrade-acueille-stop-2-position: 100%;
+}
+
+:root {
+  /* VARIABLE COLLECTION */
+  --color-footer: rgba(175 175 217 / 0.95);
+  --color-lien-externe: #00ccff;
+  --color-lien-interne: #b8b8b8;
+  --titre-couleur: var(--titre-color);
+  --color-exergue: #ffb86d;
+}

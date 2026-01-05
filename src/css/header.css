@@ -1,12 +1,14 @@
+/* HEADER */
 .header {
   position: fixed;
   top: 0;
   left: 0;
+
   width: 100%;
   height: 70px;
 
-  background-color: #111;
-  color: white;
+  background-color: white;
+  color: black;
 
   display: flex;
   align-items: center;
@@ -15,87 +17,53 @@
   z-index: 1000;
 }
 
-/* Nom du site centré */
+/* TITRE */
 .site-name {
   font-size: 1.4rem;
   margin: 0;
 }
 
-/* Boutons */
+/* BOUTONS */
 .menu-btn,
 .lang-btn {
   position: absolute;
   background: none;
   border: none;
-  color: white;
+  color: black;
   cursor: pointer;
 }
 
-/* Menu à gauche */
+/* MENU BOUTON */
 .menu-btn {
   left: 20px;
   font-size: 2rem;
 }
 
-/* Langue à droite */
+/* LANGUE */
 .lang-btn {
   right: 20px;
   font-size: 1rem;
   padding: 5px 10px;
-  border: 1px solid white;
+  border: 1px solid black;
   border-radius: 4px;
 }
-
-.menu {
-  position: fixed;
-  top: 70px;
-  left: -100%;
-
-  width: 220px;
-  height: calc(100vh - 70px);
-
-  background-color: #222;
-  transition: left 0.3s ease;
-}
-
-.menu.open {
-  left: 0;
-}
-
-.menu ul {
-  list-style: none;
-  padding: 20px;
-}
-
-.menu a {
-  color: white;
-  text-decoration: none;
-}
-
-main {
-  margin-top: 70px;
-}
-
-
-/* Menu ouvert 
 
 /* MENU LATERAL */
 .menu {
   position: fixed;
-  top: 70px; /* hauteur du header */
+  top: 70px;
   left: -260px;
 
   width: 260px;
   height: calc(100vh - 70px);
 
-  background-color: #1a1a1a;
+  background-color: white;
 
-  transition: left 0.35s ease;
+  transition: left 0.3s ease;
   z-index: 999;
 }
 
 /* MENU OUVERT */
-
 .menu.open {
   left: 0;
 }
@@ -106,19 +74,22 @@ main {
   padding: 30px 20px;
 }
 
-/* ITEMS */
 .menu-list li {
   margin-bottom: 20px;
 }
 
-/* LIENS */
 .menu-list a {
-  color: white;
+  color: black;
   text-decoration: none;
   font-size: 1.1rem;
-  transition: color 0.2s ease;
 }
 
 .menu-list a:hover {
   color: #00c3ff;
+}
+
+/* CONTENU */
+main {
+  margin-top: 70px;
+  padding: 20px;
 }

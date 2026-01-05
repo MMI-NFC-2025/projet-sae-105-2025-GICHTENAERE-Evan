@@ -6,51 +6,60 @@
     <title>Au delà du Nobel</title>
 
     <meta name="description" content="Bienvenue sur le site. Découvrez la scientifique Schien Chiung Wu et son parcours exceptionnel au delà du prix Nobel.">
-    <link rel="stylesheet" href="src/css/index.css">
+    <link rel="stylesheet" href="src/css/style.css">
+    <link rel="stylesheet" href="src/js/index.js">
 </head>
 
 <body>
-    <header>
-        <header class="header">
-  <!-- Bouton menu (gauche) -->
-  <button class="menu-btn" aria-label="Ouvrir le menu">
-    ☰
-  </button>
 
-  <!-- Nom du site (centre) -->
-  <h1 class="site-name">Au delà du Nobel</h1>
+  <!-- HEADER -->
+  <header class="header">
 
-  <!-- Bouton langue (droite) -->
-  <button class="lang-btn">
-    FR
-  </button>
+    <!-- Bouton menu -->
+    <button class="menu-btn" aria-label="Ouvrir le menu">☰</button>
+
+    <!-- Titre -->
+    <h1 class="site-name">Au delà du Nobel</h1>
+
+    <!-- Langue -->
+    <button class="lang-btn">FR</button>
+
+  </header>
+
+  <!-- MENU LATERAL (UN SEUL) -->
   <nav class="menu">
-  <ul>
-    <li><a href="#">Accueil</a></li>
-    <li><a href="#">À propos</a></li>
-    <li><a href="#">Contact</a></li>
-  </ul>
-</nav>
+    <ul class="menu-list">
+      <li><a href="index.html">Accueil</a></li>
+      <li><a href="chercheuse.html">La chercheuse</a></li>
+      <li><a href="theorie.html">Sa théorie</a></li>
+      <li><a href="femmedesciences.html">Femmes de sciences</a></li>
+      <li><a href="outilderehabilitation.html">Outil de réhabilitation</a></li>
+      <li><a href="livre.html">Livre</a></li>
+      <li><a href="contact.html">Contact</a></li>
+      <li><a href="glossaire.html">Glossaire</a></li>
+      <li><a href="autreprojet.html">Autre projet</a></li>
+      <li><a href="apropos.html">À propos</a></li>
+    </ul>
+  </nav>
 
-</header>
+  <main>
+    <img src="img/index/chien shiung wu.avif" alt="Photo de Chien Shiung Wu" class="index-img-main">
+  </main>
 
-        </section>
-    </header>
+<script>
+  const menuBtn = document.querySelector('.menu-btn');
+  const menu = document.querySelector('.menu');
 
-    <nav class="menu">
-  <ul class="menu-list">
-    <li><a href="index.html">Accueil</a></li>
-    <li><a href="chercheuse.html">La chercheuse</a></li>
-    <li><a href="theorie.html">Sa théorie</a></li>
-    <li><a href="femmedesciences.html">Femmes de sciences dans la littérature</a></li>
-    <li><a href="outilderehabilitation.html">Outil de réhabilitation</a></li>
-    <li><a href="livre.html">Livre </a></li>
-    <li><a href="contact.html">Contact</a></li>
-    <li><a href="glossaire.html">Glossaire</a></li>
-    <li><a href="autreprojet.html">Autre projet</a></li>
-    <li><a href="apropos.html">À propos</a></li>
-  </ul>
-</nav>
+  console.log('JS chargé'); // TEST
+
+  menuBtn.addEventListener('click', () => {
+    console.log('clic détecté');
+    menu.classList.toggle('open');
+  });
+</script>
+
+
 
 </body>
+
 </html>
