@@ -4,3 +4,32 @@
   object-fit: cover;
   size: cover;  
 }
+
+.titre-index-principal {
+    margin-top: 300px;
+}
+
+.texte-glossaire {
+    margin-top: 50px;
+    margin-left: 25px;
+    margin-right: 25px;
+    font-size: 16px;
+    text-align: justify;
+}
+
+.lien-glossaire-bleu {
+    margin-top: 20px;
+    margin-left: 25px;
+    margin-right: 25px;
+    font-size: 16px;
+    text-align: justify;
+    color: rgb(79, 79, 173);
+}
+
+.ref-text {
+    margin-top: 20px;
+    margin-left: 25px;
+    margin-right: 25px;
+    font-size: 16px;
+    text-align: justify;
+}
