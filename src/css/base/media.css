@@ -81,6 +81,22 @@ img {
 .index-img-femmedescience {
   width: 80px;
   height: auto;
-  margin-left: auto;   /* CLÉ : pousse l’image à droite */
   flex-shrink: 0;
+}
+
+.section-femme-sciences {
+  display: flex;
+  align-items: center;
+  gap: 20px;       /* ESPACE ENTRE TEXTE ET IMAGE */
+}
+
+.index-img-livre {
+  width: 200px;
+  height: auto;
+}
+
+.index-img-livre {
+  display: block;       /* Nécessaire pour que margin fonctionne */
+    margin: 0 auto;       /* Centre horizontalement */
+    max-width: 100%;      /* Évite le dépassement */
 }

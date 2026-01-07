@@ -6,6 +6,7 @@
 /*base*/
 @import "base/main.css";
 @import "base/media.css";
+@import "base/chercheuse.css";
 
 /*vendors*/
 @import "vendors/normalize.css";

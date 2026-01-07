@@ -1,0 +1,156 @@
+.index-btn-politiquedeconfidentialite {
+
+    text-decoration: underline;
+  font-size: larger;
+  font-weight: 600;
+  letter-spacing: 1px;;
+  font-weight: bold;
+  cursor: pointer;
+
+  /* Animation fluide */
+  transition:
+    background-color 0.3s ease,
+    transform 0.25s ease,
+    box-shadow 0.25s ease;
+    color: white;
+}
+
+.index-btn-mentionslegales {
+
+    text-decoration: underline;
+  font-size: larger;
+  font-weight: 600;
+  letter-spacing: 1px;;
+  font-weight: bold;
+  cursor: pointer;
+
+  /* Animation fluide */
+  transition:
+    background-color 0.3s ease,
+    transform 0.25s ease,
+    box-shadow 0.25s ease;
+
+    color: white;
+}
+
+.index-btn-autreprojet {
+    text-decoration: underline;
+  font-size: larger;
+  font-weight: 600;
+  letter-spacing: 1px;;
+  font-weight: bold;
+  cursor: pointer;
+
+  /* Animation fluide */
+  transition:
+    background-color 0.3s ease,
+    transform 0.25s ease,
+    box-shadow 0.25s ease;
+
+    color: white;
+}
+
+.index-btn-glossaire {
+    text-decoration: underline;
+  font-size: larger;
+  font-weight: 600;
+  letter-spacing: 1px;;
+  font-weight: bold;
+  cursor: pointer;
+
+  /* Animation fluide */
+  transition:
+    background-color 0.3s ease,
+    transform 0.25s ease,
+    box-shadow 0.25s ease;
+
+    color: white;
+}
+
+.index-btn-contact {
+    text-decoration: underline;
+  font-size: larger;
+  font-weight: 600;
+  letter-spacing: 1px;;
+  font-weight: bold;
+  cursor: pointer;
+
+  /* Animation fluide */
+  transition:
+    background-color 0.3s ease,
+    transform 0.25s ease,
+    box-shadow 0.25s ease;
+
+    color: white;
+}
+
+.index-btn-apropos {
+    text-decoration: underline;
+  font-size: larger;
+  font-weight: 600;
+  letter-spacing: 1px;;
+  font-weight: bold;
+  cursor: pointer;
+
+  /* Animation fluide */
+  transition:
+    background-color 0.3s ease,
+    transform 0.25s ease,
+    box-shadow 0.25s ease;
+
+    color: white;
+}
+
+.footer-index {
+    background-color: rgba(175 175 217 / 1);
+}
+
+.texte-footer-gris {
+  color: #4c4c4c;
+  margin-left: 20px;
+    
+
+}
+
+.lien-footer {
+    margin-left: 20px;
+}
+
+.evan-footer {
+    margin-left: 20px;
+    position : center;
+}
+
+.titre-footer {
+    font-size: 15px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: white;
+    position: center;
+}
+
+.nous-suivre-footer {
+    margin-left: 20px;
+    margin-bottom: 50px;
+    color: white;
+}
+
+.texte-p-footer {
+    color: white;
+    margin-left: 20px;
+    margin-top: 60px;
+}
+
+.livre-texte {
+    color: white;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+.texte-livre {
+    color: white;
+    margin-top: 10px;
+    margin-bottom: 50px;
+    font-size: 16px;
+}

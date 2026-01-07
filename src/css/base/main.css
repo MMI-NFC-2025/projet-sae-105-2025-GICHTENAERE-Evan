@@ -51,6 +51,15 @@
   overflow: hidden;
 }
 
+.titre-index-principal {
+  position: absolute; /* superposé sur l'image */
+  top: 50px;          /* ajustable */
+  left: 25px;         /* ajustable */
+  z-index: 10;        /* devant l'image */
+  color: #FFE0AD;
+  font-size: 3rem;    /* exemple */
+}
+
 .index-img-main {
   width: 100%;
   height: 100%;
@@ -322,14 +331,13 @@ p {
 }
 
 .textefemme-sciences {
-    width: 50%;
-  color: white;
-  min-width: 0;
-  font-size: px; /* ajuste : 24px, 28px, 32px… */
-  line-height: 1.4;
   flex: 1;
+  color: white;
+  font-size: 16px;   /* mets une vraie valeur */
+  line-height: 1.4;
+  margin-top: 30px;
   margin-left: 20px;
-  margin-top: 40px;
+  margin-bottom: 40px;
 }
 
 
@@ -344,5 +352,22 @@ p {
 
   max-width: 1200px;
   margin: 0 auto;
+}
+
+.text-film {
+  margin-left: 20px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  color: white;
+  width: 90%;
+}
+
+.nom-affiche {
+  margin-left: 20px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  color: white;
+  width: 90%;
+  position: center;
 }
 
