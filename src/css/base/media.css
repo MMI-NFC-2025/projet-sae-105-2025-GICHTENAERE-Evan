@@ -3,3 +3,84 @@ img {
   height: auto;
   display: block;
 }
+.img-wrapper {
+  width: 100%;
+  overflow: hidden;
+}
+
+.index-img-main {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  size: cover;
+}
+
+.index-img-nobel {
+  flex: 0.8;            /* image un peu plus petite que le texte */
+  display: flex;
+  justify-content: flex-end;
+}
+
+.index-img-nobel {
+  width: 73%;          /* responsive */
+  max-width: 400px;     /* limite taille */
+  height: auto;         /* garde proportions */
+
+  border-radius: 12px;
+  flex: 0.6;          /* réduit la largeur dans un flex */
+  max-width: 350px;   /* limite la taille maximale */
+}
+
+.size-zone-medaille {
+  display: flex;
+  justify-content: flex-end; /* colle l’image à droite */
+  align-items: center;
+
+  flex: 0 0 auto;            /* empêche la box de s’étirer */
+  width: fit-content;        /* la box s’adapte à l’image */
+}
+
+@media (max-width: 768px) {
+  .medaille-index {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .texte-zone-medaille {
+    width: 100%;
+    text-align: left; /* ou center si tu veux */
+  }
+
+  .size-zone-medaille {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .index-img-nobel {
+    width: 180px;
+  }
+}
+.index-img-particule-droite {
+  width: 60px;
+  height: auto;
+  margin-left: auto;   /* CLÉ : pousse l’image à droite */
+  flex-shrink: 0;
+}
+
+.index-img-particule-gauche {
+  width: 60px;       /* ajuste : 100px / 120px / 180px */
+  height: auto;
+  display: block;
+
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.index-img-femmedescience {
+  width: 80px;
+  height: auto;
+  margin-left: auto;   /* CLÉ : pousse l’image à droite */
+  flex-shrink: 0;
+}
