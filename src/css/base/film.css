@@ -1,12 +1,34 @@
 .titre-chercheuse-principal {
     width: 80%;
   position: absolute; /* superposé sur l'image */
-  top: 60px;          /* ajustable */
+  top: 10px;          /* ajustable */
   left: 10px;         /* ajustable */
   z-index: 10;        /* devant l'image */
   color: #FFE0AD;
   font-size: 2.5rem;    /* exemple */
 }
 
+.sous-titre-chercheuse{
+    width: 80%;
+  position: absolute; /* superposé sur l'image */
+  top: 1000px;          /* ajustable */
+  left: 45px;         /* ajustable */
+  z-index: 10;        /* devant l'image */
+  color: #FFE0AD;
+  font-size: 2rem;    /* exemple */
+}
 
+.video-bande-annonce {
+    margin-top: 20px;
+    margin-bottom: 50px;
+    border-radius: 12%;
 
+}
+
+.text-film {
+    margin-top: 20px;
+    margin-left: 25px;
+    margin-right: 25px;
+    font-size: 16px;
+    text-align: justify;
+}
