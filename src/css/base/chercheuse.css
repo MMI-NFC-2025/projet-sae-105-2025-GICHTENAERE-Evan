@@ -3,3 +3,48 @@
   height: calc(100vh - 70px); /* hauteur écran - header */
   overflow: hidden;
 }
+
+.hero-chercheuse {
+     width: 100%;
+  height: 100%;
+  object-fit: cover; /* remplit sans déformer */
+  display: block;
+}
+
+.titre-index-principal {
+    width: 80%;
+  position: absolute; /* superposé sur l'image */
+  top: 60px;          /* ajustable */
+  left: 10px;         /* ajustable */
+  z-index: 10;        /* devant l'image */
+  color: #FFE0AD;
+  font-size: 2.5rem;    /* exemple */
+}
+
+.sous-titre-1 {
+    width: 80%;
+  position: absolute; /* superposé sur l'image */
+  top: 550px;          /* ajustable */
+  left: 70px;         /* ajustable */
+  z-index: 10;        /* devant l'image */
+  color: #FFE0AD;
+  font-size: 2rem;    /* exemple */
+}
+
+.texte-qui-est { 
+    margin-top: 125px;
+    margin-left: 25px;
+
+}
+
+                                                            /* qu a t elle fait  -->*/
+.sous-titre-2 {
+    width: 80%;
+  position: absolute; /* superposé sur l'image */
+  top: 900px;          /* ajustable */
+  left: 70px;         /* ajustable */
+  z-index: 10;        /* devant l'image */
+  color: #FFE0AD;
+  font-size: 2rem;    /* exemple */
+}
+}
