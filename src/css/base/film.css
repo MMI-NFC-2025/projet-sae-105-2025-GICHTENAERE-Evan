@@ -1,0 +1,12 @@
+.titre-chercheuse-principal {
+    width: 80%;
+  position: absolute; /* superposé sur l'image */
+  top: 60px;          /* ajustable */
+  left: 10px;         /* ajustable */
+  z-index: 10;        /* devant l'image */
+  color: #FFE0AD;
+  font-size: 2.5rem;    /* exemple */
+}
+
+
+

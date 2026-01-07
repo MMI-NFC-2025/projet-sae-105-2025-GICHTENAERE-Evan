@@ -41,10 +41,85 @@
 .sous-titre-2 {
     width: 80%;
   position: absolute; /* superposé sur l'image */
-  top: 900px;          /* ajustable */
-  left: 70px;         /* ajustable */
+  top: 850px;          /* ajustable */
+  left: 45px;         /* ajustable */
   z-index: 10;        /* devant l'image */
   color: #FFE0AD;
   font-size: 2rem;    /* exemple */
 }
+
+.texte-qu-a-t-elle-fait { 
+    margin-top: 90px;
+    margin-left: 25px;
+}
+
+.img-atome-chercheuse {
+  width: 60px;
+  height: auto;
+  margin-left: auto;   /* CLÉ : pousse l’image à droite */
+  flex-shrink: 0;  
+}
+
+.img-atome-gauche-chercheuse {
+    width: 60px;
+  height: auto;
+  margin-right: auto;   /* CLÉ : pousse l’image à droite */
+  flex-shrink: 0;  
+}
+
+.sous-titre-3 {
+    width: 80%;
+  position: absolute; /* superposé sur l'image */
+  top: 1240px;          /* ajustable */
+  left: 45px;         /* ajustable */
+  z-index: 10;        /* devant l'image */
+  color: #FFE0AD;
+  font-size: 2rem;    /* exemple */
+}
+
+.bouton-glossaire {
+    color: azure;
+    margin-top: 30px;
+    margin-left: 25px;
+}
+
+.texte-3 { 
+    margin-top: 25px;
+    margin-left: 25px;
+}
+
+.sous-titre-4 { 
+    width: 80%;
+  position: absolute; /* superposé sur l'image */
+  top: 1600px;          /* ajustable */
+  left: 80px;         /* ajustable */
+  z-index: 10;        /* devant l'image */
+  color: #FFE0AD;
+  font-size: 2rem;    /* exemple */
+}
+
+.texte-4 { 
+    margin-top: 140px;
+    margin-left: 25px;
+}
+
+.img-au-dela-des-honneurs {
+    width: 80px;
+  height: auto;
+  margin-left: auto;   /* CLÉ : pousse l’image à droite */
+  flex-shrink: 0;
+}
+
+.exergue-chercheuse {
+    margin-top: 40px;
+    margin-left: 25px;
+    margin-right: 25px;
+    position: center;
+    color: orange;
+    font-style: italic bold;
+}
+
+.texte-5 { 
+    margin-top: 60px;
+    margin-left: 25px;
 }
